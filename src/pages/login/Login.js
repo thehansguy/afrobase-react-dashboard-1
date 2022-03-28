@@ -33,7 +33,7 @@ function Login(props) {
   var [error, setError] = useState(null);
   var [activeTabId, setActiveTabId] = useState(0);
   var [nameValue, setNameValue] = useState("");
-  var [loginValue, setLoginValue] = useState("admin@flatlogic.com");
+  var [loginValue, setLoginValue] = useState("admin@ghana_invest.com");
   var [passwordValue, setPasswordValue] = useState("password");
 
   return (
@@ -60,7 +60,7 @@ function Login(props) {
           {activeTabId === 0 && (
             <React.Fragment>
               <Typography variant="h1" className={classes.greeting}>
-                Good Morning, User
+                Welcome
               </Typography>
               <Button size="large" className={classes.googleButton}>
                 <img src={google} alt="google" className={classes.googleIcon} />
@@ -248,16 +248,16 @@ function Login(props) {
           )}
         </div>
         <Typography color="primary" className={classes.copyright}>
-          © 2014-{new Date().getFullYear()}{" "}
+          © {new Date().getFullYear()}{" "}
           <a
             style={{ textDecoration: "none", color: "inherit" }}
             href="https://flatlogic.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Flatlogic
+            Afrobase
           </a>
-          , LLC. All rights reserved.
+          , All rights reserved.
         </Typography>
       </div>
     </Grid>
