@@ -142,7 +142,7 @@ export default function Header(props) {
         <div className={classes.grow} />
         <Button
           component={Link}
-          href="https://ghana-invest.org/"
+          href="https://ghana-invest.org/become-a-member/"
           variant={"outlined"}
           color={"secondary"}
           className={classes.purchaseBtn}
@@ -264,15 +264,15 @@ export default function Header(props) {
         >
           <div className={classes.profileMenuUser}>
             <Typography variant="h4" weight="medium">
-              John Smith
+              Maxine
             </Typography>
             <Typography
               className={classes.profileMenuLink}
               component="a"
               color="primary"
-              href="https://flatlogic.com"
+              href="https://ghana-invest.org/"
             >
-              Flalogic.com
+              ghana-invest.org
             </Typography>
           </div>
           <MenuItem
