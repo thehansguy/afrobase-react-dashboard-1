@@ -20,6 +20,12 @@ import Sidebar from "../Sidebar";
 
 // pages
 import Dashboard from "../../pages/dashboard";
+import PoliticsAndInstitutions from "../../pages/politics-and-institutions";
+import EconomicPolicy from "../../pages/economic-policy";
+import EconomicStructure from "../../pages/economic-structure";
+import Macroeconomic from "../../pages/macroeconomic/Macroeconomic";
+import FinancingAndLiquidity from "../../pages/financing-and-liquidity";
+
 import Typography from "../../pages/typography";
 import Notifications from "../../pages/notifications";
 import Maps from "../../pages/maps";
@@ -49,6 +55,21 @@ function Layout(props) {
           <div className={classes.fakeToolbar} />
           <Switch>
             <Route path="/app/dashboard" component={Dashboard} />
+            <Route
+              path="/app/politics-and-institutions"
+              component={PoliticsAndInstitutions}
+            />
+            <Route path="/app/economic-policy" component={EconomicPolicy} />
+            <Route
+              path="/app/economic-structure"
+              component={EconomicStructure}
+            />
+            <Route path="/app/macroeconomic" component={Macroeconomic} />
+            <Route
+              path="/app/financing-and-liquidity"
+              component={FinancingAndLiquidity}
+            />
+
             <Route path="/app/typography" component={Typography} />
             <Route path="/app/tables" component={Tables} />
             <Route path="/app/notifications" component={Notifications} />

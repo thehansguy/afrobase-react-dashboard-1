@@ -34,10 +34,15 @@ const structure = [
   {
     id: 1,
     label: "Politics/Institutions",
-    link: "/app/typography",
+    link: "/app/politics-and-institutions",
     icon: <TypographyIcon />,
   },
-  { id: 2, label: "Economic Policy", link: "/app/tables", icon: <TableIcon /> },
+  {
+    id: 2,
+    label: "Economic Policy",
+    link: "/app/economic-policy",
+    icon: <TableIcon />,
+  },
   {
     id: 3,
     label: "Economic Structure",
@@ -47,13 +52,13 @@ const structure = [
   {
     id: 4,
     label: "Macroeconomic",
-    link: "/app/ui",
+    link: "/app/macroeconomic",
     icon: <UIElementsIcon />,
-    children: [
-      { label: "Icons", link: "/app/ui/icons" },
-      { label: "Charts", link: "/app/ui/charts" },
-      { label: "Maps", link: "/app/ui/maps" },
-    ],
+    // children: [
+    //   { label: "Icons", link: "/app/ui/icons" },
+    //   { label: "Charts", link: "/app/ui/charts" },
+    //   { label: "Maps", link: "/app/ui/maps" },
+    // ],
   },
   {
     id: 5,
