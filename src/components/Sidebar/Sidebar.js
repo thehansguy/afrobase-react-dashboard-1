@@ -46,7 +46,7 @@ const structure = [
   {
     id: 3,
     label: "Economic Structure",
-    link: "/app/notifications",
+    link: "/app/economic-structure",
     icon: <NotificationsIcon />,
   },
   {
