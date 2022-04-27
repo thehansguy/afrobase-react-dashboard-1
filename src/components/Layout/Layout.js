@@ -22,7 +22,7 @@ import Sidebar from "../Sidebar";
 import Dashboard from "../../pages/dashboard";
 import PoliticsAndInstitutions from "../../pages/politics-and-institutions";
 import EconomicPolicy from "../../pages/economic-policy";
-import EconomicStructure from "../../pages/economic-structure";
+import EconomicStructure from "../../pages/economic-structure/EconomicStructure";
 import Macroeconomic from "../../pages/macroeconomic/Macroeconomic";
 import FinancingAndLiquidity from "../../pages/financing-and-liquidity";
 
